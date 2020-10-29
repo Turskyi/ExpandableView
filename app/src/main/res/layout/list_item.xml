@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android1:orientation="vertical"
+    android1:layout_width="match_parent"
+    android1:layout_height="wrap_content">
+    <TextView
+        android1:id="@+id/expandedListItem"
+        android1:layout_width="fill_parent"
+        android1:layout_height="wrap_content"
+        android1:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+        android1:paddingEnd="?android:attr/expandableListPreferredChildPaddingLeft"
+        android1:paddingTop="10dp"
+        android1:paddingBottom="10dp" />
+</LinearLayout>
